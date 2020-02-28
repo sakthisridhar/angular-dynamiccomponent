@@ -6,7 +6,7 @@ import { HelloComponent,HiComponent } from './hello.component';
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
-export class AppComponent  {
+export class AppComponent  { 
   @ViewChild('buttonclass',{static:true}) el:ElementRef;
   @ViewChild(HostDireactive,{static:true})
   childref:HostDireactive;
